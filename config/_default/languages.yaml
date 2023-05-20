@@ -5,8 +5,29 @@
 # Default language
 en:
   languageCode: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  contentDir: content/en
+ru:
+  languageCode: ru-ru
+  contentDir: content/ru
+  title: К. Эспиноса
+menu:
+   main:
+    - name: обо мне
+      url: '#about'
+      weight: 10
+    - name: Записи
+      url: '#post'
+      weight: 20
+    - name: Разговоры
+      url: '#talks'
+      weight: 40
+    - name: Публикации
+      url: '#featured'
+      weight: 50
+    - name: Контакты
+      url: '#contact'
+      weight: 60
+      
 
 # Uncomment the lines below to configure your website in a second language.
 #zh:
